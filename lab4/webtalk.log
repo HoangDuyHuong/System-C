@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Apr 10 11:04:34 2025
+# Process ID: 17892
+# Current directory: C:/HOC_TAP/System_C/21b-HWSW/Project/Code/lab4
+# Command line: wbtcv.exe -mode batch -source C:/HOC_TAP/System_C/21b-HWSW/Project/Code/lab4/audio/audio.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: C:/HOC_TAP/System_C/21b-HWSW/Project/Code/lab4/webtalk.log
+# Journal file: C:/HOC_TAP/System_C/21b-HWSW/Project/Code/lab4\webtalk.jou
+#-----------------------------------------------------------
+source C:/HOC_TAP/System_C/21b-HWSW/Project/Code/lab4/audio/audio.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 10 11:04:35 2025...
