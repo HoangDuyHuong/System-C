@@ -1,0 +1,27 @@
+   Compiling ../../../../register_tb.cpp in debug mode
+   Generating csim.exe
+WARNING: Default time step is used for VCD tracing.
+10 ns Load: output = 0b010101010
+20 ns Hold: output = 0b010101010
+30 ns Hold: output = 0b010101010
+40 ns Hold: output = 0b010101010
+50 ns Shift Left: output = 0b001010100
+60 ns Shift Left: output = 0b010101000
+70 ns Shift Left: output = 0b001010000
+80 ns Shift Left: output = 0b010100000
+90 ns Shift Left: output = 0b001000000
+100 ns Shift Left: output = 0b010000000
+110 ns Shift Left: output = 0b000000000
+120 ns Shift Left: output = 0b000000000
+130 ns Load: output = 0b011110000
+140 ns Hold: output = 0b011110000
+150 ns Hold: output = 0b011110000
+160 ns Shift Right: output = 0b001111000
+170 ns Shift Right: output = 0b000111100
+180 ns Shift Right: output = 0b000011110
+190 ns Shift Right: output = 0b000001111
+200 ns Shift Right: output = 0b000000111
+210 ns Shift Right: output = 0b000000011
+220 ns Shift Right: output = 0b000000001
+230 ns Shift Right: output = 0b000000000
+@I [SIM-1] CSim done with 0 errors.

@@ -1,0 +1,188 @@
+$date
+     Apr 17, 2025       15:49:32
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Jul  4 2013 12:03:34
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  clk       $end
+$var wire    8  aab  input [7:0]  $end
+$var wire    2  aac  SH [1:0]  $end
+$var wire    8  aad  output [7:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaa
+b10101010 aab
+b10 aac
+b10101010 aad
+$end
+
+#5000
+0aaa
+
+#10000
+1aaa
+b11 aac
+
+#15000
+0aaa
+
+#20000
+1aaa
+
+#25000
+0aaa
+
+#30000
+1aaa
+
+#35000
+0aaa
+
+#40000
+1aaa
+b1 aac
+b1010100 aad
+
+#45000
+0aaa
+
+#50000
+1aaa
+b10101000 aad
+
+#55000
+0aaa
+
+#60000
+1aaa
+b1010000 aad
+
+#65000
+0aaa
+
+#70000
+1aaa
+b10100000 aad
+
+#75000
+0aaa
+
+#80000
+1aaa
+b1000000 aad
+
+#85000
+0aaa
+
+#90000
+1aaa
+b10000000 aad
+
+#95000
+0aaa
+
+#100000
+1aaa
+b0 aad
+
+#105000
+0aaa
+
+#110000
+1aaa
+
+#115000
+0aaa
+
+#120000
+1aaa
+b11110000 aab
+b10 aac
+b11110000 aad
+
+#125000
+0aaa
+
+#130000
+1aaa
+b11 aac
+
+#135000
+0aaa
+
+#140000
+1aaa
+
+#145000
+0aaa
+
+#150000
+1aaa
+b0 aac
+b1111000 aad
+
+#155000
+0aaa
+
+#160000
+1aaa
+b111100 aad
+
+#165000
+0aaa
+
+#170000
+1aaa
+b11110 aad
+
+#175000
+0aaa
+
+#180000
+1aaa
+b1111 aad
+
+#185000
+0aaa
+
+#190000
+1aaa
+b111 aad
+
+#195000
+0aaa
+
+#200000
+1aaa
+b11 aad
+
+#205000
+0aaa
+
+#210000
+1aaa
+b1 aad
+
+#215000
+0aaa
+
+#220000
+1aaa
+b0 aad
+
+#225000
+0aaa
+

@@ -1,0 +1,40 @@
+INFO: Applying HLS Y2K22 patch v1.2 for IP revision
+@I [HLS-10] Running 'C:/Xilinx/Vivado_HLS/2015.4/bin/unwrapped/win64.o/vivado_hls.exe'
+            for user 'dellc' on host 'huong' (Windows NT_amd64 version 6.2) on Thu Apr 17 15:49:26 +0700 2025
+            in directory 'C:/HOC_TAP/System_C/register'
+@I [HLS-10] Opening project 'C:/HOC_TAP/System_C/register/register'.
+@I [HLS-10] Opening solution 'C:/HOC_TAP/System_C/register/register/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [HLS-10] Setting target device to 'xc7z020clg484-1'
+   Compiling ../../../../register_tb.cpp in debug mode
+   Generating csim.exe
+
+             SystemC 2.3.0-ASI --- Jul  4 2013 12:03:34
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+WARNING: Default time step is used for VCD tracing.
+10 ns Load: output = 0b010101010
+20 ns Hold: output = 0b010101010
+30 ns Hold: output = 0b010101010
+40 ns Hold: output = 0b010101010
+50 ns Shift Left: output = 0b001010100
+60 ns Shift Left: output = 0b010101000
+70 ns Shift Left: output = 0b001010000
+80 ns Shift Left: output = 0b010100000
+90 ns Shift Left: output = 0b001000000
+100 ns Shift Left: output = 0b010000000
+110 ns Shift Left: output = 0b000000000
+120 ns Shift Left: output = 0b000000000
+130 ns Load: output = 0b011110000
+140 ns Hold: output = 0b011110000
+150 ns Hold: output = 0b011110000
+160 ns Shift Right: output = 0b001111000
+170 ns Shift Right: output = 0b000111100
+180 ns Shift Right: output = 0b000011110
+190 ns Shift Right: output = 0b000001111
+200 ns Shift Right: output = 0b000000111
+210 ns Shift Right: output = 0b000000011
+220 ns Shift Right: output = 0b000000001
+230 ns Shift Right: output = 0b000000000
+@I [SIM-1] CSim done with 0 errors.
