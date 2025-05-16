@@ -1,0 +1,9 @@
+@I [SIM-2] Generating simulation wrapper in SystemC ...
+@I [SIM-47] Using XSIM for RTL simulation.
+   Build using "C:/Xilinx/Vivado_HLS/2015.4/msys/bin/g++.exe"
+   Compiling decoder_2to4.cpp
+   Compiling decoder_2to4_do_decode.cpp
+   Compiling decoder_2to4_tb.cpp
+@E [SIM-317] C++ compile error.
+@E [SIM-321] EXE file generate failed.
+@E [SIM-4] *** C/RTL co-simulation finished: FAIL ***

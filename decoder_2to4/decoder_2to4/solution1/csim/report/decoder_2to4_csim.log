@@ -1,0 +1,10 @@
+   Compiling ../../../../decoder_2to4_tb.cpp in debug mode
+   Compiling ../../../../decoder_2to4.cpp in debug mode
+   Generating csim.exe
+Note: VCD trace timescale unit is set by user to 1.000000e-009 sec.
+da tao file VCD: decoder_waveform.vcd
+din = 0, dout = 1
+din = 1, dout = 2
+din = 2, dout = 4
+din = 3, dout = 8
+@I [SIM-1] CSim done with 0 errors.
