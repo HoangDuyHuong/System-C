@@ -1,0 +1,58 @@
+   Compiling ../../../../counter_4bit_tb.cpp in debug mode
+   Generating csim.exe
+WARNING: Default time step is used for VCD tracing.
+15 ns Count (0-9, up): 1
+25 ns Count (0-9, up): 2
+35 ns Count (0-9, up): 3
+45 ns Count (0-9, up): 4
+55 ns Count (0-9, up): 5
+65 ns Count (0-9, up): 6
+75 ns Count (0-9, up): 7
+85 ns Count (0-9, up): 8
+95 ns Count (0-9, up): 9
+105 ns Count (0-9, up): 0
+115 ns Count (0-9, down): 1
+125 ns Count (0-9, down): 0
+135 ns Count (0-9, down): 9
+145 ns Count (0-9, down): 8
+155 ns Count (0-9, down): 7
+165 ns Count (0-9, down): 6
+175 ns Count (0-9, down): 5
+185 ns Count (0-9, down): 4
+195 ns Count (0-9, down): 3
+205 ns Count (0-9, down): 2
+215 ns Count (0-15, up): 1
+225 ns Count (0-15, up): 2
+235 ns Count (0-15, up): 3
+245 ns Count (0-15, up): 4
+255 ns Count (0-15, up): 5
+265 ns Count (0-15, up): 6
+275 ns Count (0-15, up): 7
+285 ns Count (0-15, up): 8
+295 ns Count (0-15, up): 9
+305 ns Count (0-15, up): 10
+315 ns Count (0-15, up): 11
+325 ns Count (0-15, up): 12
+335 ns Count (0-15, up): 13
+345 ns Count (0-15, up): 14
+355 ns Count (0-15, up): 15
+365 ns Count (0-15, up): 0
+375 ns Count (0-15, down): 1
+385 ns Count (0-15, down): 0
+395 ns Count (0-15, down): 15
+405 ns Count (0-15, down): 14
+415 ns Count (0-15, down): 13
+425 ns Count (0-15, down): 12
+435 ns Count (0-15, down): 11
+445 ns Count (0-15, down): 10
+455 ns Count (0-15, down): 9
+465 ns Count (0-15, down): 8
+475 ns Count (0-15, down): 7
+485 ns Count (0-15, down): 6
+495 ns Count (0-15, down): 5
+505 ns Count (0-15, down): 4
+515 ns Count (0-15, down): 3
+525 ns Count (0-15, down): 2
+535 ns Load P = 5, Q = 1
+545 ns After Load, Q = 5
+@I [SIM-1] CSim done with 0 errors.
