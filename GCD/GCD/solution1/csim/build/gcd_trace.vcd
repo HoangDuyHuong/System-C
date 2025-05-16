@@ -1,0 +1,228 @@
+$date
+     Apr 25, 2025       19:32:03
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Jul  4 2013 12:03:34
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  clk       $end
+$var wire    1  aab  reset       $end
+$var wire    1  aac  start       $end
+$var wire    4  aad  x_in [3:0]  $end
+$var wire    4  aae  y_in [3:0]  $end
+$var wire    4  aaf  gcd_out [3:0]  $end
+$var wire    1  aag  done       $end
+$var wire    4  aah  gcd.x_out [3:0]  $end
+$var wire    4  aai  gcd.y_out [3:0]  $end
+$var wire    1  aaj  gcd.x_eq_y       $end
+$var wire    1  aak  gcd.load_out       $end
+$var wire   32  aal  gcd.ctrl.state [31:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaa
+1aab
+0aac
+b0 aad
+b0 aae
+b0 aaf
+0aag
+b0 aah
+b0 aai
+1aaj
+0aak
+b1101111110010111100101010011101 aal
+$end
+
+#5000
+1aaa
+
+#10000
+0aaa
+
+#15000
+1aaa
+
+#20000
+0aaa
+0aab
+1aac
+b1010 aad
+b10 aae
+
+#25000
+1aaa
+
+#30000
+0aaa
+
+#35000
+1aaa
+b1010 aah
+b10 aai
+0aaj
+
+#40000
+0aaa
+0aac
+
+#45000
+1aaa
+
+#50000
+0aaa
+
+#55000
+1aaa
+b1000 aah
+
+#60000
+0aaa
+
+#65000
+1aaa
+
+#70000
+0aaa
+
+#75000
+1aaa
+b110 aah
+
+#80000
+0aaa
+
+#85000
+1aaa
+
+#90000
+0aaa
+
+#95000
+1aaa
+b100 aah
+
+#100000
+0aaa
+
+#105000
+1aaa
+
+#110000
+0aaa
+
+#115000
+1aaa
+b10 aah
+1aaj
+
+#120000
+0aaa
+
+#125000
+1aaa
+1aak
+
+#130000
+0aaa
+
+#135000
+1aaa
+b10 aaf
+1aag
+0aak
+
+#140000
+0aaa
+1aab
+b0 aaf
+0aag
+b0 aah
+b0 aai
+
+#145000
+1aaa
+
+#150000
+0aaa
+
+#155000
+1aaa
+
+#160000
+0aaa
+0aab
+1aac
+b1000 aad
+b1100 aae
+
+#165000
+1aaa
+
+#170000
+0aaa
+
+#175000
+1aaa
+b1000 aah
+b1100 aai
+0aaj
+
+#180000
+0aaa
+0aac
+
+#185000
+1aaa
+
+#190000
+0aaa
+
+#195000
+1aaa
+b100 aai
+
+#200000
+0aaa
+
+#205000
+1aaa
+
+#210000
+0aaa
+
+#215000
+1aaa
+b100 aah
+1aaj
+
+#220000
+0aaa
+
+#225000
+1aaa
+1aak
+
+#230000
+0aaa
+
+#235000
+1aaa
+b100 aaf
+1aag
+0aak
+
+#240000
+0aaa
+

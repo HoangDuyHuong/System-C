@@ -1,0 +1,22 @@
+INFO: Applying HLS Y2K22 patch v1.2 for IP revision
+@I [HLS-10] Running 'C:/Xilinx/Vivado_HLS/2015.4/bin/unwrapped/win64.o/vivado_hls.exe'
+            for user 'dellc' on host 'huong' (Windows NT_amd64 version 6.2) on Fri Apr 25 19:31:53 +0700 2025
+            in directory 'C:/HOC_TAP/System_C/GCD'
+@I [HLS-10] Opening project 'C:/HOC_TAP/System_C/GCD/GCD'.
+@I [HLS-10] Opening solution 'C:/HOC_TAP/System_C/GCD/GCD/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [HLS-10] Setting target device to 'xc7z020clg484-1'
+   Compiling ../../../../gcd_tb.cpp in debug mode
+   Compiling ../../../../gcd.cpp in debug mode
+   Generating csim.exe
+
+             SystemC 2.3.0-ASI --- Jul  4 2013 12:03:34
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+WARNING: Default time step is used for VCD tracing.
+GCD(10, 2) = 2
+GCD(8, 12) = 4
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+@I [SIM-1] CSim done with 0 errors.

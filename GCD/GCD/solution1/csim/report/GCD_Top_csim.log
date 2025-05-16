@@ -1,0 +1,53 @@
+   Compiling ../../../../gcd_tb.cpp in debug mode
+In file included from ../../../../gcd_tb.cpp:3:0:
+../../../../gcd.cpp:130:23: error: 'in_x' was not declared in this scope
+../../../../gcd.cpp:130:29: error: 'in_y' was not declared in this scope
+../../../../gcd.cpp:130:29: error: wrong number of template arguments (2, should be 1)
+C:/Xilinx/Vivado_HLS/2015.4/win64/tools/systemc/include/sysc/datatypes/int/sc_uint.h:74:24: error: provided for 'template<int W> class sc_dt::sc_uint'
+../../../../gcd.cpp:130:11: error: template argument 1 is invalid
+../../../../gcd.cpp:131:24: error: 'result' was not declared in this scope
+../../../../gcd.cpp:131:24: error: template argument 1 is invalid
+../../../../gcd.cpp:131:12: error: template argument 1 is invalid
+../../../../gcd.cpp:135:27: error: 'x_in' was not declared in this scope
+../../../../gcd.cpp:135:33: error: 'y_in' was not declared in this scope
+../../../../gcd.cpp:135:33: error: wrong number of template arguments (2, should be 1)
+C:/Xilinx/Vivado_HLS/2015.4/win64/tools/systemc/include/sysc/datatypes/int/sc_uint.h:74:24: error: provided for 'template<int W> class sc_dt::sc_uint'
+../../../../gcd.cpp:135:15: error: template argument 1 is invalid
+../../../../gcd.cpp:136:27: error: 'x_out' was not declared in this scope
+../../../../gcd.cpp:136:34: error: 'y_out' was not declared in this scope
+../../../../gcd.cpp:136:34: error: wrong number of template arguments (2, should be 1)
+C:/Xilinx/Vivado_HLS/2015.4/win64/tools/systemc/include/sysc/datatypes/int/sc_uint.h:74:24: error: provided for 'template<int W> class sc_dt::sc_uint'
+../../../../gcd.cpp:136:15: error: template argument 1 is invalid
+../../../../gcd.cpp:137:27: error: 'sub_out_x' was not declared in this scope
+../../../../gcd.cpp:137:38: error: 'sub_out_y' was not declared in this scope
+../../../../gcd.cpp:137:38: error: wrong number of template arguments (2, should be 1)
+C:/Xilinx/Vivado_HLS/2015.4/win64/tools/systemc/include/sysc/datatypes/int/sc_uint.h:74:24: error: provided for 'template<int W> class sc_dt::sc_uint'
+../../../../gcd.cpp:137:15: error: template argument 1 is invalid
+../../../../gcd.cpp: In member function 'void GCD_Top::assign_inputs()':
+../../../../gcd.cpp:149:9: error: 'x_in' was not declared in this scope
+../../../../gcd.cpp:149:20: error: 'in_x' was not declared in this scope
+../../../../gcd.cpp:150:9: error: 'y_in' was not declared in this scope
+../../../../gcd.cpp:150:20: error: 'in_y' was not declared in this scope
+../../../../gcd.cpp:151:33: error: 'result' was not declared in this scope
+../../../../gcd.cpp:151:46: error: 'x_out' was not declared in this scope
+../../../../gcd.cpp: In constructor 'GCD_Top::GCD_Top(sc_core::sc_module_name)':
+../../../../gcd.cpp:167:19: error: 'x_in' was not declared in this scope
+../../../../gcd.cpp:167:37: error: 'x_out' was not declared in this scope
+../../../../gcd.cpp:170:19: error: 'y_in' was not declared in this scope
+../../../../gcd.cpp:170:37: error: 'y_out' was not declared in this scope
+../../../../gcd.cpp:173:38: error: 'sub_out_x' was not declared in this scope
+../../../../gcd.cpp:174:38: error: 'sub_out_y' was not declared in this scope
+../../../../gcd.cpp:192:22: error: 'in_x' was not declared in this scope
+../../../../gcd.cpp:192:30: error: 'in_y' was not declared in this scope
+../../../../gcd_tb.cpp: In function 'int sc_main(int, char**)':
+../../../../gcd_tb.cpp:6:27: error: 'sig_in_x' was not declared in this scope
+../../../../gcd_tb.cpp:6:37: error: 'sig_in_y' was not declared in this scope
+../../../../gcd_tb.cpp:6:47: error: 'sig_result' was not declared in this scope
+../../../../gcd_tb.cpp:6:47: error: wrong number of template arguments (3, should be 1)
+C:/Xilinx/Vivado_HLS/2015.4/win64/tools/systemc/include/sysc/datatypes/int/sc_uint.h:74:24: error: provided for 'template<int W> class sc_dt::sc_uint'
+../../../../gcd_tb.cpp:6:15: error: template argument 1 is invalid
+../../../../gcd_tb.cpp:12:9: error: 'struct GCD_Top' has no member named 'in_x'
+../../../../gcd_tb.cpp:13:9: error: 'struct GCD_Top' has no member named 'in_y'
+../../../../gcd_tb.cpp:14:9: error: 'struct GCD_Top' has no member named 'result'
+make: *** [obj/gcd_tb.o] Error 1
+@E [SIM-1] 'csim_design' failed: compilation error(s).

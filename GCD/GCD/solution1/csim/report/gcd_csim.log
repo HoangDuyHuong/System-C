@@ -1,0 +1,9 @@
+   Compiling ../../../../gcd_tb.cpp in debug mode
+   Compiling ../../../../gcd.cpp in debug mode
+   Generating csim.exe
+WARNING: Default time step is used for VCD tracing.
+GCD(10, 2) = 2
+GCD(8, 12) = 4
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+@I [SIM-1] CSim done with 0 errors.
