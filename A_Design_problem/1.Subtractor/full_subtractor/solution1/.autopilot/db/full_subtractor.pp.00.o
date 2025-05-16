@@ -1,0 +1,273 @@
+	.def	 __cxx_global_var_init;
+	.scl	3;
+	.type	32;
+	.endef
+	.text
+	.align	16, 0x90
+__cxx_global_var_init:
+	.cfi_startproc
+	pushq	%rbp
+.Ltmp2:
+	.cfi_def_cfa_offset 16
+.Ltmp3:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp4:
+	.cfi_def_cfa_register %rbp
+	subq	$48, %rsp
+	movl	$_ZStL8__ioinit, %ecx
+	callq	_ZNSt8ios_base4InitC1Ev
+	movl	$__dtor__ZStL8__ioinit, %ecx
+	callq	atexit
+	movl	%eax, -4(%rbp)
+	addq	$48, %rsp
+	popq	%rbp
+	ret
+	.cfi_endproc
+
+	.def	 __dtor__ZStL8__ioinit;
+	.scl	3;
+	.type	32;
+	.endef
+	.align	16, 0x90
+__dtor__ZStL8__ioinit:
+	.cfi_startproc
+	pushq	%rbp
+.Ltmp7:
+	.cfi_def_cfa_offset 16
+.Ltmp8:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp9:
+	.cfi_def_cfa_register %rbp
+	subq	$32, %rsp
+	movl	$_ZStL8__ioinit, %ecx
+	callq	_ZNSt8ios_base4InitD1Ev
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.cfi_endproc
+
+	.def	 _ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi;
+	.scl	2;
+	.type	32;
+	.endef
+	.section	.text$ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi,"xr"
+	.linkonce discard
+	.globl	_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi
+	.align	16, 0x90
+_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi:
+Lllvm$workaround$fake$stub$_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi:
+	.cfi_startproc
+	subq	$24, %rsp
+.Ltmp11:
+	.cfi_def_cfa_offset 32
+	movq	%rcx, 16(%rsp)
+	movq	%rdx, 8(%rsp)
+	movl	%r8d, 4(%rsp)
+	addq	$24, %rsp
+	ret
+	.cfi_endproc
+
+	.def	 __cxx_global_var_init1;
+	.scl	3;
+	.type	32;
+	.endef
+	.text
+	.align	16, 0x90
+__cxx_global_var_init1:
+	.cfi_startproc
+	pushq	%rbp
+.Ltmp14:
+	.cfi_def_cfa_offset 16
+.Ltmp15:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp16:
+	.cfi_def_cfa_register %rbp
+	subq	$32, %rsp
+	movl	$_ZN7sc_coreL17api_version_checkE, %ecx
+	callq	_ZN7sc_core20sc_api_version_2_3_0C1Ev
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.cfi_endproc
+
+	.def	 _ZN7sc_core18sc_process_monitorD1Ev;
+	.scl	2;
+	.type	32;
+	.endef
+	.section	.text$ZN7sc_core18sc_process_monitorD1Ev,"xr"
+	.linkonce discard
+	.globl	_ZN7sc_core18sc_process_monitorD1Ev
+	.align	16, 0x90
+_ZN7sc_core18sc_process_monitorD1Ev:
+Lllvm$workaround$fake$stub$_ZN7sc_core18sc_process_monitorD1Ev:
+	.cfi_startproc
+	pushq	%rbp
+.Ltmp19:
+	.cfi_def_cfa_offset 16
+.Ltmp20:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp21:
+	.cfi_def_cfa_register %rbp
+	subq	$48, %rsp
+	movq	%rcx, -8(%rbp)
+	callq	_ZN7sc_core18sc_process_monitorD2Ev
+	addq	$48, %rsp
+	popq	%rbp
+	ret
+	.cfi_endproc
+
+	.def	 _ZN7sc_core18sc_process_monitorD0Ev;
+	.scl	2;
+	.type	32;
+	.endef
+	.section	.text$ZN7sc_core18sc_process_monitorD0Ev,"xr"
+	.linkonce discard
+	.globl	_ZN7sc_core18sc_process_monitorD0Ev
+	.align	16, 0x90
+_ZN7sc_core18sc_process_monitorD0Ev:
+Lllvm$workaround$fake$stub$_ZN7sc_core18sc_process_monitorD0Ev:
+	.cfi_startproc
+	.cfi_personality 0, __gxx_personality_v0
+.Leh_func_begin5:
+	.cfi_lsda 0, .Lexception5
+	pushq	%rbp
+.Ltmp27:
+	.cfi_def_cfa_offset 16
+.Ltmp28:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp29:
+	.cfi_def_cfa_register %rbp
+	subq	$64, %rsp
+	movq	%rcx, -8(%rbp)
+	movq	%rcx, %rax
+.Ltmp22:
+	movq	%rax, -32(%rbp)
+	callq	_ZN7sc_core18sc_process_monitorD1Ev
+.Ltmp23:
+	jmp	.LBB5_1
+.LBB5_1:
+	movq	-32(%rbp), %rcx
+	callq	_ZdlPv
+	addq	$64, %rsp
+	popq	%rbp
+	ret
+.LBB5_2:
+.Ltmp24:
+	movl	%edx, %ecx
+	movq	%rax, -16(%rbp)
+	movl	%ecx, -20(%rbp)
+	movq	-32(%rbp), %rax
+	movq	%rax, %rcx
+	callq	_ZdlPv
+	movq	-16(%rbp), %rcx
+	callq	_Unwind_Resume
+	.cfi_endproc
+.Leh_func_end5:
+	.section	.gcc_except_table,"r"
+	.align	4
+GCC_except_table5:
+.Lexception5:
+	.byte	255
+	.byte	0
+	.asciz	 "\234"
+	.byte	3
+	.byte	26
+.Lset0 = .Ltmp22-.Leh_func_begin5
+	.long	.Lset0
+.Lset1 = .Ltmp23-.Ltmp22
+	.long	.Lset1
+.Lset2 = .Ltmp24-.Leh_func_begin5
+	.long	.Lset2
+	.byte	0
+.Lset3 = .Ltmp23-.Leh_func_begin5
+	.long	.Lset3
+.Lset4 = .Leh_func_end5-.Ltmp23
+	.long	.Lset4
+	.long	0
+	.byte	0
+	.align	4
+
+	.def	 _ZN7sc_core18sc_process_monitorD2Ev;
+	.scl	2;
+	.type	32;
+	.endef
+	.section	.text$ZN7sc_core18sc_process_monitorD2Ev,"xr"
+	.linkonce discard
+	.globl	_ZN7sc_core18sc_process_monitorD2Ev
+	.align	16, 0x90
+_ZN7sc_core18sc_process_monitorD2Ev:
+Lllvm$workaround$fake$stub$_ZN7sc_core18sc_process_monitorD2Ev:
+	.cfi_startproc
+	pushq	%rax
+.Ltmp31:
+	.cfi_def_cfa_offset 16
+	movq	%rcx, (%rsp)
+	popq	%rax
+	ret
+	.cfi_endproc
+
+	.def	 _GLOBAL__I_a;
+	.scl	3;
+	.type	32;
+	.endef
+	.text
+	.align	16, 0x90
+_GLOBAL__I_a:
+	.cfi_startproc
+	pushq	%rbp
+.Ltmp34:
+	.cfi_def_cfa_offset 16
+.Ltmp35:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp36:
+	.cfi_def_cfa_register %rbp
+	subq	$32, %rsp
+	callq	__cxx_global_var_init
+	callq	__cxx_global_var_init1
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.cfi_endproc
+
+	.lcomm	_ZStL8__ioinit,1
+	.data
+_ZN7sc_coreL26PHASH_DEFAULT_REORDER_FLAGE:
+	.byte	1
+
+	.lcomm	_ZN7sc_coreL17api_version_checkE,1
+	.section	.rdata$ZTVN7sc_core18sc_process_monitorE,"r"
+	.linkonce discard
+	.globl	_ZTVN7sc_core18sc_process_monitorE
+	.align	16
+_ZTVN7sc_core18sc_process_monitorE:
+	.quad	0
+	.quad	_ZTIN7sc_core18sc_process_monitorE
+	.quad	_ZN7sc_core18sc_process_monitorD1Ev
+	.quad	_ZN7sc_core18sc_process_monitorD0Ev
+	.quad	_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi
+
+	.section	.rdata$ZTSN7sc_core18sc_process_monitorE,"r"
+	.linkonce discard
+	.globl	_ZTSN7sc_core18sc_process_monitorE
+	.align	16
+_ZTSN7sc_core18sc_process_monitorE:
+	.asciz	 "N7sc_core18sc_process_monitorE"
+
+	.section	.rdata$ZTIN7sc_core18sc_process_monitorE,"r"
+	.linkonce discard
+	.globl	_ZTIN7sc_core18sc_process_monitorE
+	.align	8
+_ZTIN7sc_core18sc_process_monitorE:
+	.quad	_ZTVN10__cxxabiv117__class_type_infoE+16
+	.quad	_ZTSN7sc_core18sc_process_monitorE
+
+	.section	.ctors,"w"
+	.align	8
+	.quad	_GLOBAL__I_a
+

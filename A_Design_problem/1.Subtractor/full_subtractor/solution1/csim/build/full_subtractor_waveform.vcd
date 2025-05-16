@@ -1,0 +1,66 @@
+$date
+     May 14, 2025       21:15:25
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Jul  4 2013 12:03:34
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  A       $end
+$var wire    1  aab  B       $end
+$var wire    1  aac  Bin       $end
+$var wire    1  aad  D       $end
+$var wire    1  aae  Bout       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaa
+0aab
+0aac
+0aad
+0aae
+$end
+
+#1000
+1aac
+1aad
+1aae
+
+#2000
+1aab
+0aac
+
+#3000
+1aac
+0aad
+
+#4000
+1aaa
+0aab
+0aac
+1aad
+0aae
+
+#5000
+1aac
+0aad
+
+#6000
+1aab
+0aac
+
+#7000
+1aac
+1aad
+1aae
+

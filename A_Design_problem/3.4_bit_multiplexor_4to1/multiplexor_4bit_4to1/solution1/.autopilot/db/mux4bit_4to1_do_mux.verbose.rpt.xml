@@ -1,0 +1,143 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'mux4bit_4to1_do_mux'" level="0">
+<item name = "Date">Thu May 15 02:02:25 2025
+</item>
+<item name = "Version">2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)</item>
+<item name = "Project">multiplexor_4bit_4to1</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020clg484-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 5.47, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">0, 0, 0, 0, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="DSP">-, -, -, -</column>
+<column name="Expression">-, -, 0, 40</column>
+<column name="FIFO">-, -, -, -</column>
+<column name="Instance">-, -, -, -</column>
+<column name="Memory">-, -, -, -</column>
+<column name="Multiplexer">-, -, -, -</column>
+<column name="Register">-, -, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, 0, ~0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="newSel10_fu_453_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="newSel1_fu_169_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="newSel2_fu_177_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="newSel3_fu_247_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="newSel4_fu_261_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="newSel5_fu_269_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="newSel6_fu_339_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="newSel7_fu_353_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="newSel8_fu_361_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="newSel9_fu_431_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="newSel_fu_445_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="tmp_13_fu_155_p3">Select, 0, 0, 1, 1, 1</column>
+<column name="sel_tmp11_fu_315_p2">and, 0, 0, 1, 1, 1</column>
+<column name="sel_tmp16_fu_407_p2">and, 0, 0, 1, 1, 1</column>
+<column name="sel_tmp1_fu_123_p2">and, 0, 0, 1, 1, 1</column>
+<column name="sel_tmp9_fu_223_p2">and, 0, 0, 1, 1, 1</column>
+<column name="sel_tmp10_fu_309_p2">icmp, 0, 0, 1, 2, 2</column>
+<column name="sel_tmp12_fu_321_p2">icmp, 0, 0, 2, 2, 3</column>
+<column name="sel_tmp13_fu_327_p2">icmp, 0, 0, 1, 2, 1</column>
+<column name="sel_tmp14_fu_333_p2">icmp, 0, 0, 1, 2, 1</column>
+<column name="sel_tmp15_fu_401_p2">icmp, 0, 0, 1, 2, 2</column>
+<column name="sel_tmp17_fu_413_p2">icmp, 0, 0, 2, 2, 3</column>
+<column name="sel_tmp18_fu_419_p2">icmp, 0, 0, 1, 2, 1</column>
+<column name="sel_tmp19_fu_425_p2">icmp, 0, 0, 1, 2, 1</column>
+<column name="sel_tmp2_fu_129_p2">icmp, 0, 0, 2, 2, 3</column>
+<column name="sel_tmp3_fu_229_p2">icmp, 0, 0, 2, 2, 3</column>
+<column name="sel_tmp4_fu_135_p2">icmp, 0, 0, 1, 2, 1</column>
+<column name="sel_tmp5_fu_235_p2">icmp, 0, 0, 1, 2, 1</column>
+<column name="sel_tmp6_fu_141_p2">icmp, 0, 0, 1, 2, 1</column>
+<column name="sel_tmp7_fu_241_p2">icmp, 0, 0, 1, 2, 1</column>
+<column name="sel_tmp8_fu_217_p2">icmp, 0, 0, 1, 2, 2</column>
+<column name="sel_tmp_fu_117_p2">icmp, 0, 0, 1, 2, 2</column>
+<column name="or_cond1_fu_255_p2">or, 0, 0, 1, 1, 1</column>
+<column name="or_cond2_fu_347_p2">or, 0, 0, 1, 1, 1</column>
+<column name="or_cond3_fu_439_p2">or, 0, 0, 1, 1, 1</column>
+<column name="or_cond_fu_163_p2">or, 0, 0, 1, 1, 1</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="in0">in, 4, ap_none, in0, pointer</column>
+<column name="in1">in, 4, ap_none, in1, pointer</column>
+<column name="in2">in, 4, ap_none, in2, pointer</column>
+<column name="in3">in, 4, ap_none, in3, pointer</column>
+<column name="sel">in, 2, ap_none, sel, pointer</column>
+<column name="out_r">out, 4, ap_vld, out_r, pointer</column>
+<column name="out_r_ap_vld">out, 1, ap_vld, out_r, pointer</column>
+</table>
+</item>
+</section>
+</profile>

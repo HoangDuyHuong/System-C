@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="mux4bit_4to1" xd:componentRef="mux4bit_4to1" xd:initiationInterval="1" xd:clockPeriod="10.000000" xd:sequential="false" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="in0" xd:originalName="in0" xd:direction="in" xd:interfaceRef="in0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="4"/>
+  <xd:arg xd:name="in1" xd:originalName="in1" xd:direction="in" xd:interfaceRef="in1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="4"/>
+  <xd:arg xd:name="in2" xd:originalName="in2" xd:direction="in" xd:interfaceRef="in2" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="4"/>
+  <xd:arg xd:name="in3" xd:originalName="in3" xd:direction="in" xd:interfaceRef="in3" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="4"/>
+  <xd:arg xd:name="sel" xd:originalName="sel" xd:direction="in" xd:interfaceRef="sel" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="2"/>
+  <xd:arg xd:name="out_r" xd:originalName="out_r" xd:direction="out" xd:interfaceRef="out_r" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="4"/>
+  <xd:latencyEstimates xd:best-case="0" xd:worst-case="0" xd:average-case="0"/>
+  <xd:resourceEstimates xd:LUT="40" xd:FF="0" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="ALU.cpp" path="C:\HOC_TAP\System_C\Final_report\A_Design_problem\2.ALU_4bit\ALU.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="tb_ALU.cpp" path="C:\HOC_TAP\System_C\Final_report\A_Design_problem\2.ALU_4bit\tb_ALU.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

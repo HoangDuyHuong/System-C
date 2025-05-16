@@ -1,0 +1,5 @@
+   Compiling ../../../../gcd_hw_driver.cpp in debug mode
+   Generating csim.exe
+UserInput: Sending x=15, y=6 at 10 ns
+HW/SW GCD Result = 0 at 1020 ns
+@I [SIM-1] CSim done with 0 errors.

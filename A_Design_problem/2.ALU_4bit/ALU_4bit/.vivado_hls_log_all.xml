@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SCHED-35] Protocol 'SC_METHOD' contains conflicting I/O accesses:&#xD;&#xA;   wire read on port 'A' (ALU.cpp:27) and wire read on port 'A' (ALU.cpp:28) occur in the same clock cycle." projectName="ALU_4bit" solutionName="solution1" date="2025-05-15T01:14:32.037+0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

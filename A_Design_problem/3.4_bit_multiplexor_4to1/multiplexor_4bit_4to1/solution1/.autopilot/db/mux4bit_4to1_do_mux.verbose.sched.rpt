@@ -1,0 +1,365 @@
+
+
+================================================================
+== Vivado HLS Report for 'mux4bit_4to1_do_mux'
+================================================================
+* Date:           Thu May 15 02:02:25 2025
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        multiplexor_4bit_4to1
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      5.47|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    0|    0|    0|    0|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 1
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+* FSM state operations: 
+
+ <State 1>: 5.47ns
+ST_1: stg_2 [1/1] 0.00ns
+_ifconv:0  call void (...)* @_ssdm_op_SpecBitsMap(i4* %in0), !map !109
+
+ST_1: stg_3 [1/1] 0.00ns
+_ifconv:1  call void (...)* @_ssdm_op_SpecBitsMap(i4* %in1), !map !113
+
+ST_1: stg_4 [1/1] 0.00ns
+_ifconv:2  call void (...)* @_ssdm_op_SpecBitsMap(i4* %in2), !map !117
+
+ST_1: stg_5 [1/1] 0.00ns
+_ifconv:3  call void (...)* @_ssdm_op_SpecBitsMap(i4* %in3), !map !121
+
+ST_1: stg_6 [1/1] 0.00ns
+_ifconv:4  call void (...)* @_ssdm_op_SpecBitsMap(i2* %sel), !map !125
+
+ST_1: stg_7 [1/1] 0.00ns
+_ifconv:5  call void (...)* @_ssdm_op_SpecBitsMap(i4* %out_r), !map !129
+
+ST_1: stg_8 [1/1] 0.00ns
+_ifconv:6  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 0, [13 x i8]* @p_str1023, [4 x i8]* @p_str518, i32 0, i32 0, i4* %in0) nounwind
+
+ST_1: stg_9 [1/1] 0.00ns
+_ifconv:7  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 0, [13 x i8]* @p_str1023, [4 x i8]* @p_str619, i32 0, i32 0, i4* %in1) nounwind
+
+ST_1: stg_10 [1/1] 0.00ns
+_ifconv:8  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 0, [13 x i8]* @p_str1023, [4 x i8]* @p_str720, i32 0, i32 0, i4* %in2) nounwind
+
+ST_1: stg_11 [1/1] 0.00ns
+_ifconv:9  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 0, [13 x i8]* @p_str1023, [4 x i8]* @p_str821, i32 0, i32 0, i4* %in3) nounwind
+
+ST_1: stg_12 [1/1] 0.00ns
+_ifconv:10  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 0, [13 x i8]* @p_str1124, [4 x i8]* @p_str922, i32 0, i32 0, i2* %sel) nounwind
+
+ST_1: stg_13 [1/1] 0.00ns
+_ifconv:11  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 1, [13 x i8]* @p_str1023, [4 x i8]* @p_str1225, i32 0, i32 0, i4* %out_r) nounwind
+
+ST_1: stg_14 [1/1] 0.00ns
+_ifconv:12  call void (...)* @_ssdm_op_SpecProcessDef([13 x i8]* @p_str316, i32 0, [7 x i8]* @p_str417) nounwind
+
+ST_1: tmp [1/1] 0.00ns
+_ifconv:13  %tmp = call i32 (...)* @_ssdm_op_SpecRegionBegin([10 x i8]* @p_str1427)
+
+ST_1: stg_16 [1/1] 0.00ns
+_ifconv:14  call void (...)* @_ssdm_op_SpecProtocol(i32 1) nounwind
+
+ST_1: mux4bit_4to1_in0_m_if_Val_V_re [1/1] 0.00ns
+_ifconv:15  %mux4bit_4to1_in0_m_if_Val_V_re = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in0)
+
+ST_1: mux4bit_4to1_in1_m_if_Val_V_re [1/1] 0.00ns
+_ifconv:16  %mux4bit_4to1_in1_m_if_Val_V_re = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in1)
+
+ST_1: mux4bit_4to1_in2_m_if_Val_V_re [1/1] 0.00ns
+_ifconv:17  %mux4bit_4to1_in2_m_if_Val_V_re = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in2)
+
+ST_1: tmp_9 [1/1] 0.00ns
+_ifconv:18  %tmp_9 = trunc i4 %mux4bit_4to1_in2_m_if_Val_V_re to i1
+
+ST_1: mux4bit_4to1_in3_m_if_Val_V_re [1/1] 0.00ns
+_ifconv:19  %mux4bit_4to1_in3_m_if_Val_V_re = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in3)
+
+ST_1: tmp_10 [1/1] 0.00ns
+_ifconv:20  %tmp_10 = trunc i4 %mux4bit_4to1_in3_m_if_Val_V_re to i1
+
+ST_1: mux4bit_4to1_sel_m_if_Val_V_re [1/1] 0.00ns
+_ifconv:21  %mux4bit_4to1_sel_m_if_Val_V_re = call i2 @_ssdm_op_Read.ap_auto.volatile.i2P(i2* %sel)
+
+ST_1: sel_tmp [1/1] 1.36ns
+_ifconv:22  %sel_tmp = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re, -1
+
+ST_1: sel_tmp1 [1/1] 1.37ns
+_ifconv:23  %sel_tmp1 = and i1 %sel_tmp, %tmp_10
+
+ST_1: sel_tmp2 [1/1] 1.36ns
+_ifconv:24  %sel_tmp2 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re, -2
+
+ST_1: sel_tmp4 [1/1] 1.36ns
+_ifconv:25  %sel_tmp4 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re, 1
+
+ST_1: sel_tmp6 [1/1] 1.36ns
+_ifconv:26  %sel_tmp6 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re, 0
+
+ST_1: tmp_11 [1/1] 0.00ns
+_ifconv:27  %tmp_11 = trunc i4 %mux4bit_4to1_in0_m_if_Val_V_re to i1
+
+ST_1: tmp_12 [1/1] 0.00ns
+_ifconv:28  %tmp_12 = trunc i4 %mux4bit_4to1_in1_m_if_Val_V_re to i1
+
+ST_1: tmp_13 [1/1] 1.37ns
+_ifconv:29  %tmp_13 = select i1 %sel_tmp6, i1 %tmp_11, i1 %tmp_12
+
+ST_1: or_cond [1/1] 1.37ns
+_ifconv:30  %or_cond = or i1 %sel_tmp6, %sel_tmp4
+
+ST_1: newSel1 [1/1] 1.37ns
+_ifconv:31  %newSel1 = select i1 %sel_tmp2, i1 %tmp_9, i1 %sel_tmp1
+
+ST_1: newSel2 [1/1] 1.37ns
+_ifconv:32  %newSel2 = select i1 %or_cond, i1 %tmp_13, i1 %newSel1
+
+ST_1: mux4bit_4to1_in0_m_if_Val_V_re_1 [1/1] 0.00ns
+_ifconv:33  %mux4bit_4to1_in0_m_if_Val_V_re_1 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in0)
+
+ST_1: tmp_14 [1/1] 0.00ns
+_ifconv:34  %tmp_14 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in0_m_if_Val_V_re_1, i32 1)
+
+ST_1: mux4bit_4to1_in1_m_if_Val_V_re_1 [1/1] 0.00ns
+_ifconv:35  %mux4bit_4to1_in1_m_if_Val_V_re_1 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in1)
+
+ST_1: tmp_15 [1/1] 0.00ns
+_ifconv:36  %tmp_15 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in1_m_if_Val_V_re_1, i32 1)
+
+ST_1: mux4bit_4to1_in2_m_if_Val_V_re_1 [1/1] 0.00ns
+_ifconv:37  %mux4bit_4to1_in2_m_if_Val_V_re_1 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in2)
+
+ST_1: tmp_16 [1/1] 0.00ns
+_ifconv:38  %tmp_16 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in2_m_if_Val_V_re_1, i32 1)
+
+ST_1: mux4bit_4to1_in3_m_if_Val_V_re_1 [1/1] 0.00ns
+_ifconv:39  %mux4bit_4to1_in3_m_if_Val_V_re_1 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in3)
+
+ST_1: tmp_17 [1/1] 0.00ns
+_ifconv:40  %tmp_17 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in3_m_if_Val_V_re_1, i32 1)
+
+ST_1: mux4bit_4to1_sel_m_if_Val_V_re_1 [1/1] 0.00ns
+_ifconv:41  %mux4bit_4to1_sel_m_if_Val_V_re_1 = call i2 @_ssdm_op_Read.ap_auto.volatile.i2P(i2* %sel)
+
+ST_1: sel_tmp8 [1/1] 1.36ns
+_ifconv:42  %sel_tmp8 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_1, -1
+
+ST_1: sel_tmp9 [1/1] 1.37ns
+_ifconv:43  %sel_tmp9 = and i1 %sel_tmp8, %tmp_17
+
+ST_1: sel_tmp3 [1/1] 1.36ns
+_ifconv:44  %sel_tmp3 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_1, -2
+
+ST_1: sel_tmp5 [1/1] 1.36ns
+_ifconv:45  %sel_tmp5 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_1, 1
+
+ST_1: sel_tmp7 [1/1] 1.36ns
+_ifconv:46  %sel_tmp7 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_1, 0
+
+ST_1: newSel3 [1/1] 1.37ns
+_ifconv:47  %newSel3 = select i1 %sel_tmp7, i1 %tmp_14, i1 %tmp_15
+
+ST_1: or_cond1 [1/1] 1.37ns
+_ifconv:48  %or_cond1 = or i1 %sel_tmp7, %sel_tmp5
+
+ST_1: newSel4 [1/1] 1.37ns
+_ifconv:49  %newSel4 = select i1 %sel_tmp3, i1 %tmp_16, i1 %sel_tmp9
+
+ST_1: newSel5 [1/1] 1.37ns
+_ifconv:50  %newSel5 = select i1 %or_cond1, i1 %newSel3, i1 %newSel4
+
+ST_1: mux4bit_4to1_in0_m_if_Val_V_re_2 [1/1] 0.00ns
+_ifconv:51  %mux4bit_4to1_in0_m_if_Val_V_re_2 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in0)
+
+ST_1: tmp_18 [1/1] 0.00ns
+_ifconv:52  %tmp_18 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in0_m_if_Val_V_re_2, i32 2)
+
+ST_1: mux4bit_4to1_in1_m_if_Val_V_re_2 [1/1] 0.00ns
+_ifconv:53  %mux4bit_4to1_in1_m_if_Val_V_re_2 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in1)
+
+ST_1: tmp_19 [1/1] 0.00ns
+_ifconv:54  %tmp_19 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in1_m_if_Val_V_re_2, i32 2)
+
+ST_1: mux4bit_4to1_in2_m_if_Val_V_re_2 [1/1] 0.00ns
+_ifconv:55  %mux4bit_4to1_in2_m_if_Val_V_re_2 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in2)
+
+ST_1: tmp_20 [1/1] 0.00ns
+_ifconv:56  %tmp_20 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in2_m_if_Val_V_re_2, i32 2)
+
+ST_1: mux4bit_4to1_in3_m_if_Val_V_re_2 [1/1] 0.00ns
+_ifconv:57  %mux4bit_4to1_in3_m_if_Val_V_re_2 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in3)
+
+ST_1: tmp_21 [1/1] 0.00ns
+_ifconv:58  %tmp_21 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in3_m_if_Val_V_re_2, i32 2)
+
+ST_1: mux4bit_4to1_sel_m_if_Val_V_re_2 [1/1] 0.00ns
+_ifconv:59  %mux4bit_4to1_sel_m_if_Val_V_re_2 = call i2 @_ssdm_op_Read.ap_auto.volatile.i2P(i2* %sel)
+
+ST_1: sel_tmp10 [1/1] 1.36ns
+_ifconv:60  %sel_tmp10 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_2, -1
+
+ST_1: sel_tmp11 [1/1] 1.37ns
+_ifconv:61  %sel_tmp11 = and i1 %sel_tmp10, %tmp_21
+
+ST_1: sel_tmp12 [1/1] 1.36ns
+_ifconv:62  %sel_tmp12 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_2, -2
+
+ST_1: sel_tmp13 [1/1] 1.36ns
+_ifconv:63  %sel_tmp13 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_2, 1
+
+ST_1: sel_tmp14 [1/1] 1.36ns
+_ifconv:64  %sel_tmp14 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_2, 0
+
+ST_1: newSel6 [1/1] 1.37ns
+_ifconv:65  %newSel6 = select i1 %sel_tmp14, i1 %tmp_18, i1 %tmp_19
+
+ST_1: or_cond2 [1/1] 1.37ns
+_ifconv:66  %or_cond2 = or i1 %sel_tmp14, %sel_tmp13
+
+ST_1: newSel7 [1/1] 1.37ns
+_ifconv:67  %newSel7 = select i1 %sel_tmp12, i1 %tmp_20, i1 %sel_tmp11
+
+ST_1: newSel8 [1/1] 1.37ns
+_ifconv:68  %newSel8 = select i1 %or_cond2, i1 %newSel6, i1 %newSel7
+
+ST_1: mux4bit_4to1_in0_m_if_Val_V_re_3 [1/1] 0.00ns
+_ifconv:69  %mux4bit_4to1_in0_m_if_Val_V_re_3 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in0)
+
+ST_1: tmp_22 [1/1] 0.00ns
+_ifconv:70  %tmp_22 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in0_m_if_Val_V_re_3, i32 3)
+
+ST_1: mux4bit_4to1_in1_m_if_Val_V_re_3 [1/1] 0.00ns
+_ifconv:71  %mux4bit_4to1_in1_m_if_Val_V_re_3 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in1)
+
+ST_1: tmp_23 [1/1] 0.00ns
+_ifconv:72  %tmp_23 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in1_m_if_Val_V_re_3, i32 3)
+
+ST_1: mux4bit_4to1_in2_m_if_Val_V_re_3 [1/1] 0.00ns
+_ifconv:73  %mux4bit_4to1_in2_m_if_Val_V_re_3 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in2)
+
+ST_1: tmp_24 [1/1] 0.00ns
+_ifconv:74  %tmp_24 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in2_m_if_Val_V_re_3, i32 3)
+
+ST_1: mux4bit_4to1_in3_m_if_Val_V_re_3 [1/1] 0.00ns
+_ifconv:75  %mux4bit_4to1_in3_m_if_Val_V_re_3 = call i4 @_ssdm_op_Read.ap_auto.volatile.i4P(i4* %in3)
+
+ST_1: tmp_25 [1/1] 0.00ns
+_ifconv:76  %tmp_25 = call i1 @_ssdm_op_BitSelect.i1.i4.i32(i4 %mux4bit_4to1_in3_m_if_Val_V_re_3, i32 3)
+
+ST_1: mux4bit_4to1_sel_m_if_Val_V_re_3 [1/1] 0.00ns
+_ifconv:77  %mux4bit_4to1_sel_m_if_Val_V_re_3 = call i2 @_ssdm_op_Read.ap_auto.volatile.i2P(i2* %sel)
+
+ST_1: sel_tmp15 [1/1] 1.36ns
+_ifconv:78  %sel_tmp15 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_3, -1
+
+ST_1: sel_tmp16 [1/1] 1.37ns
+_ifconv:79  %sel_tmp16 = and i1 %sel_tmp15, %tmp_25
+
+ST_1: sel_tmp17 [1/1] 1.36ns
+_ifconv:80  %sel_tmp17 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_3, -2
+
+ST_1: sel_tmp18 [1/1] 1.36ns
+_ifconv:81  %sel_tmp18 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_3, 1
+
+ST_1: sel_tmp19 [1/1] 1.36ns
+_ifconv:82  %sel_tmp19 = icmp eq i2 %mux4bit_4to1_sel_m_if_Val_V_re_3, 0
+
+ST_1: newSel9 [1/1] 1.37ns
+_ifconv:83  %newSel9 = select i1 %sel_tmp19, i1 %tmp_22, i1 %tmp_23
+
+ST_1: or_cond3 [1/1] 1.37ns
+_ifconv:84  %or_cond3 = or i1 %sel_tmp19, %sel_tmp18
+
+ST_1: newSel [1/1] 1.37ns
+_ifconv:85  %newSel = select i1 %sel_tmp17, i1 %tmp_24, i1 %sel_tmp16
+
+ST_1: newSel10 [1/1] 1.37ns
+_ifconv:86  %newSel10 = select i1 %or_cond3, i1 %newSel9, i1 %newSel
+
+ST_1: p_Result_5_3 [1/1] 0.00ns
+_ifconv:87  %p_Result_5_3 = call i4 @_ssdm_op_BitConcatenate.i4.i1.i1.i1.i1(i1 %newSel10, i1 %newSel8, i1 %newSel5, i1 %newSel2)
+
+ST_1: stg_90 [1/1] 0.00ns
+_ifconv:88  call void @_ssdm_op_Write.ap_auto.volatile.i4P(i4* %out_r, i4 %p_Result_5_3)
+
+ST_1: empty [1/1] 0.00ns
+_ifconv:89  %empty = call i32 (...)* @_ssdm_op_SpecRegionEnd([10 x i8]* @p_str1427, i32 %tmp)
+
+ST_1: stg_92 [1/1] 0.00ns
+_ifconv:90  ret void
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

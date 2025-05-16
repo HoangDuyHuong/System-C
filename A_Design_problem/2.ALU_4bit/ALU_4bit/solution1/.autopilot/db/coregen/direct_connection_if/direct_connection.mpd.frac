@@ -1,0 +1,14 @@
+
+#####################Direct Connection##################
+## A
+PORT A = "", DIR = I, VEC = [3:0]
+## B
+PORT B = "", DIR = I, VEC = [3:0]
+## op_code
+PORT op_code = "", DIR = I, VEC = [2:0]
+## result
+PORT result = "", DIR = O, VEC = [3:0]
+## carry_borrow
+PORT carry_borrow = "", DIR = O
+########################################################
+

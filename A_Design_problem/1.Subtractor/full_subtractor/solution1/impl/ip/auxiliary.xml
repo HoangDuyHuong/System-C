@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="FullSubtractor" xd:componentRef="FullSubtractor" xd:initiationInterval="1" xd:clockPeriod="10.000000" xd:sequential="false" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="A" xd:originalName="A" xd:direction="in" xd:interfaceRef="A" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:arg xd:name="B" xd:originalName="B" xd:direction="in" xd:interfaceRef="B" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:arg xd:name="Bin" xd:originalName="Bin" xd:direction="in" xd:interfaceRef="Bin" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:arg xd:name="D" xd:originalName="D" xd:direction="out" xd:interfaceRef="D" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:arg xd:name="Bout" xd:originalName="Bout" xd:direction="out" xd:interfaceRef="Bout" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="0" xd:worst-case="0" xd:average-case="0"/>
+  <xd:resourceEstimates xd:LUT="8" xd:FF="0" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

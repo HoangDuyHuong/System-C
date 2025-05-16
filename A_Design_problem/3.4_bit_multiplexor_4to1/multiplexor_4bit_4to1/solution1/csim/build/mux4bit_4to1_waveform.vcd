@@ -1,0 +1,107 @@
+$date
+     May 15, 2025       02:00:49
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Jul  4 2013 12:03:34
+$end
+
+$timescale
+     1 ns
+$end
+
+$scope module SystemC $end
+$var wire    4  aaa  in0 [3:0]  $end
+$var wire    4  aab  in1 [3:0]  $end
+$var wire    4  aac  in2 [3:0]  $end
+$var wire    4  aad  in3 [3:0]  $end
+$var wire    2  aae  sel [1:0]  $end
+$var wire    4  aaf  out [3:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+b1 aaa
+b10 aab
+b100 aac
+b1000 aad
+b0 aae
+b1 aaf
+$end
+
+#5
+b1 aae
+b10 aaf
+
+#10
+b10 aae
+b100 aaf
+
+#15
+b11 aae
+b1000 aaf
+
+#20
+b1111 aaa
+b0 aab
+b1010 aac
+b101 aad
+b0 aae
+b1111 aaf
+
+#25
+b1 aae
+b0 aaf
+
+#30
+b10 aae
+b1010 aaf
+
+#35
+b11 aae
+b101 aaf
+
+#40
+b0 aaa
+b1111 aab
+b1100 aac
+b11 aad
+b0 aae
+b0 aaf
+
+#45
+b1 aae
+b1111 aaf
+
+#50
+b10 aae
+b1100 aaf
+
+#55
+b11 aae
+b11 aaf
+
+#60
+b1001 aaa
+b110 aab
+b1101 aac
+b10 aad
+b0 aae
+b1001 aaf
+
+#65
+b1 aae
+b110 aaf
+
+#70
+b10 aae
+b1101 aaf
+
+#75
+b11 aae
+b10 aaf
+

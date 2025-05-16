@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu May 15 02:08:19 2025
+# Process ID: 1256
+# Current directory: c:/HOC_TAP/System_C/Final_report/A_Design_problem/2.ALU_4bit/ALU_4bit/solution1/impl/ip
+# Command line: wbtcv.exe -mode batch -source C:/Users/dellc/Downloads/ALU_1/ALU_1.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: c:/HOC_TAP/System_C/Final_report/A_Design_problem/2.ALU_4bit/ALU_4bit/solution1/impl/ip/webtalk.log
+# Journal file: c:/HOC_TAP/System_C/Final_report/A_Design_problem/2.ALU_4bit/ALU_4bit/solution1/impl/ip\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/dellc/Downloads/ALU_1/ALU_1.hw/webtalk/labtool_webtalk.tcl -notrace

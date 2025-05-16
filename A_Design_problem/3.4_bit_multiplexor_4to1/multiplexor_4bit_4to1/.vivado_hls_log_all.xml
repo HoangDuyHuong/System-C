@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SYN-107] Renaming port name 'mux4bit_4to1::mux4bit_4to1/out' to 'mux4bit_4to1::mux4bit_4to1/out_r' to avoid the conflict with HDL keywords or other object names." projectName="multiplexor_4bit_4to1" solutionName="solution1" date="2025-05-15T02:02:25.930+0700" type="Warning"/>
+        <logs message="@W [SCHED-35] Protocol 'SC_METHOD' contains conflicting I/O accesses:&#xD;&#xA;   wire read on port 'sel' (mux4bit_4to1.cpp:19) and wire read on port 'sel' (mux4bit_4to1.cpp:19) occur in the same clock cycle." projectName="multiplexor_4bit_4to1" solutionName="solution1" date="2025-05-15T02:02:25.460+0700" type="Warning"/>
+        <logs message="@W [SYNCHK-23] mux4bit_4to1.cpp:13: variable-indexed range selection may cause suboptimal QoR." projectName="multiplexor_4bit_4to1" solutionName="solution1" date="2025-05-15T02:02:24.519+0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

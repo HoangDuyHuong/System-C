@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="gcd.cpp" path="C:\HOC_TAP\System_C\Final_report\B_HWSW_Co_Simulation\GCD_calculator\GCD_HW_SW\gcd.cpp"/>
+    <originFiles name="gcd.h" path="C:\HOC_TAP\System_C\Final_report\B_HWSW_Co_Simulation\GCD_calculator\GCD_HW_SW\gcd.h"/>
+  </source>
+  <testbench>
+    <originFiles name="gcd_hw_driver.cpp" path="C:\HOC_TAP\System_C\Final_report\B_HWSW_Co_Simulation\GCD_calculator\GCD_HW_SW\gcd_hw_driver.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

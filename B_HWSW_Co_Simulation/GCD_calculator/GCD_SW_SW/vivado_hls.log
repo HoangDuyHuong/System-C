@@ -1,0 +1,17 @@
+INFO: Applying HLS Y2K22 patch v1.2 for IP revision
+@I [HLS-10] Running 'C:/Xilinx/Vivado_HLS/2015.4/bin/unwrapped/win64.o/vivado_hls.exe'
+            for user 'dellc' on host 'huong' (Windows NT_amd64 version 6.2) on Mon May 12 21:14:02 +0700 2025
+            in directory 'C:/HOC_TAP/System_C/Final_report/B_HWSW_Co_Simulation/GCD_calculator/GCD_SW_SW'
+@I [HLS-10] Opening project 'C:/HOC_TAP/System_C/Final_report/B_HWSW_Co_Simulation/GCD_calculator/GCD_SW_SW/GCD_SW_SW'.
+@I [HLS-10] Opening solution 'C:/HOC_TAP/System_C/Final_report/B_HWSW_Co_Simulation/GCD_calculator/GCD_SW_SW/GCD_SW_SW/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [HLS-10] Setting target device to 'xc7z020clg484-1'
+   Compiling ../../../../sw_top.cpp in debug mode
+   Generating csim.exe
+
+             SystemC 2.3.0-ASI --- Jul  4 2013 12:03:34
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+At time 50 ns GCD = 2
+@I [SIM-1] CSim done with 0 errors.

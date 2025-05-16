@@ -1,0 +1,82 @@
+$date
+     May 15, 2025       01:13:38
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Jul  4 2013 11:46:47
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    4  aaa  A [3:0]  $end
+$var wire    4  aab  B [3:0]  $end
+$var wire    3  aac  op_code [2:0]  $end
+$var wire    4  aad  result [3:0]  $end
+$var wire    1  aae  carry_borrow       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+b101 aaa
+b11 aab
+b0 aac
+b1000 aad
+0aae
+$end
+
+#1000
+b1010 aaa
+b1010 aab
+b100 aad
+1aae
+
+#2000
+b111 aaa
+b10 aab
+b1 aac
+b101 aad
+0aae
+
+#3000
+b10 aaa
+b111 aab
+b1011 aad
+1aae
+
+#4000
+b1111 aaa
+b0 aab
+b10 aac
+b0 aad
+
+#5000
+b0 aaa
+b11 aac
+b1111 aad
+
+#6000
+b110 aaa
+b1010 aab
+b100 aac
+b10 aad
+0aae
+
+#7000
+b101 aac
+b1110 aad
+
+#8000
+b110 aac
+b1101 aad
+
+#9000
+b111 aac
+b1100 aad
+

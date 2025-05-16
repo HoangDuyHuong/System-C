@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="full_subtractor.cpp" path="C:\HOC_TAP\System_C\Final_report\A_Design_problem\1.Subtractor\full_subtractor.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="main.cpp" path="C:\HOC_TAP\System_C\Final_report\A_Design_problem\1.Subtractor\main.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,218 @@
+
+
+================================================================
+== Vivado HLS Report for 'mux4bit_4to1'
+================================================================
+* Date:           Thu May 15 02:02:25 2025
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        multiplexor_4bit_4to1
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      5.47|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    0|    0|    1|    1|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|       -|      -|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
+N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 1
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+* FSM state operations: 
+
+ <State 1>: 5.47ns
+ST_1: stg_2 [1/1] 0.00ns
+:0  call void (...)* @_ssdm_op_SpecBitsMap(i4* %in0), !map !109
+
+ST_1: stg_3 [1/1] 0.00ns
+:1  call void (...)* @_ssdm_op_SpecBitsMap(i4* %in1), !map !113
+
+ST_1: stg_4 [1/1] 0.00ns
+:2  call void (...)* @_ssdm_op_SpecBitsMap(i4* %in2), !map !117
+
+ST_1: stg_5 [1/1] 0.00ns
+:3  call void (...)* @_ssdm_op_SpecBitsMap(i4* %in3), !map !121
+
+ST_1: stg_6 [1/1] 0.00ns
+:4  call void (...)* @_ssdm_op_SpecBitsMap(i2* %sel), !map !125
+
+ST_1: stg_7 [1/1] 0.00ns
+:5  call void (...)* @_ssdm_op_SpecBitsMap(i4* %out_r), !map !129
+
+ST_1: stg_8 [1/1] 0.00ns
+:6  call void (...)* @_ssdm_op_SpecTopModule([13 x i8]* @p_str316, [13 x i8]* @p_str316) nounwind
+
+ST_1: mux4bit_4to1_ssdm_thread_M_s [1/1] 0.00ns
+:7  %mux4bit_4to1_ssdm_thread_M_s = load i1* @mux4bit_4to1_ssdm_thread_M_do_mux, align 1
+
+ST_1: stg_10 [1/1] 0.00ns
+:8  br i1 %mux4bit_4to1_ssdm_thread_M_s, label %1, label %._crit_edge
+
+ST_1: stg_11 [1/1] 5.47ns
+:0  call void @"mux4bit_4to1::mux4bit_4to1_mux4bit_4to1::do_mux"(i4* %in0, i4* %in1, i4* %in2, i4* %in3, i2* %sel, i4* %out_r)
+
+ST_1: stg_12 [1/1] 0.00ns
+:1  br label %._crit_edge
+
+ST_1: stg_13 [1/1] 0.00ns
+._crit_edge:0  call void (...)* @_ssdm_op_SpecProcessDecl([13 x i8]* @p_str316, i32 0, [7 x i8]* @p_str417) nounwind
+
+ST_1: stg_14 [1/1] 0.00ns
+._crit_edge:1  call void (...)* @_ssdm_op_SpecSensitive([7 x i8]* @p_str417, [4 x i8]* @p_str518, i4* %in0, i32 0) nounwind
+
+ST_1: stg_15 [1/1] 0.00ns
+._crit_edge:2  call void (...)* @_ssdm_op_SpecSensitive([7 x i8]* @p_str417, [4 x i8]* @p_str619, i4* %in1, i32 0) nounwind
+
+ST_1: stg_16 [1/1] 0.00ns
+._crit_edge:3  call void (...)* @_ssdm_op_SpecSensitive([7 x i8]* @p_str417, [4 x i8]* @p_str720, i4* %in2, i32 0) nounwind
+
+ST_1: stg_17 [1/1] 0.00ns
+._crit_edge:4  call void (...)* @_ssdm_op_SpecSensitive([7 x i8]* @p_str417, [4 x i8]* @p_str821, i4* %in3, i32 0) nounwind
+
+ST_1: stg_18 [1/1] 0.00ns
+._crit_edge:5  call void (...)* @_ssdm_op_SpecSensitive([7 x i8]* @p_str417, [4 x i8]* @p_str922, i2* %sel, i32 0) nounwind
+
+ST_1: stg_19 [1/1] 0.00ns
+._crit_edge:6  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 0, [13 x i8]* @p_str1023, [4 x i8]* @p_str518, i32 0, i32 0, i4* %in0) nounwind
+
+ST_1: stg_20 [1/1] 0.00ns
+._crit_edge:7  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 0, [13 x i8]* @p_str1023, [4 x i8]* @p_str619, i32 0, i32 0, i4* %in1) nounwind
+
+ST_1: stg_21 [1/1] 0.00ns
+._crit_edge:8  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 0, [13 x i8]* @p_str1023, [4 x i8]* @p_str720, i32 0, i32 0, i4* %in2) nounwind
+
+ST_1: stg_22 [1/1] 0.00ns
+._crit_edge:9  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 0, [13 x i8]* @p_str1023, [4 x i8]* @p_str821, i32 0, i32 0, i4* %in3) nounwind
+
+ST_1: stg_23 [1/1] 0.00ns
+._crit_edge:10  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 0, [13 x i8]* @p_str1124, [4 x i8]* @p_str922, i32 0, i32 0, i2* %sel) nounwind
+
+ST_1: stg_24 [1/1] 0.00ns
+._crit_edge:11  call void (...)* @_ssdm_op_SpecPort([13 x i8]* @p_str316, i32 1, [13 x i8]* @p_str1023, [4 x i8]* @p_str1225, i32 0, i32 0, i4* %out_r) nounwind
+
+ST_1: stg_25 [1/1] 0.00ns
+._crit_edge:12  ret void
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

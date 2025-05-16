@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="ALU" xd:componentRef="ALU" xd:initiationInterval="1" xd:clockPeriod="10.000000" xd:sequential="false" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="A" xd:originalName="A" xd:direction="in" xd:interfaceRef="A" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="4"/>
+  <xd:arg xd:name="B" xd:originalName="B" xd:direction="in" xd:interfaceRef="B" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="4"/>
+  <xd:arg xd:name="op_code" xd:originalName="op_code" xd:direction="in" xd:interfaceRef="op_code" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="3"/>
+  <xd:arg xd:name="result" xd:originalName="result" xd:direction="out" xd:interfaceRef="result" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="4"/>
+  <xd:arg xd:name="carry_borrow" xd:originalName="carry_borrow" xd:direction="out" xd:interfaceRef="carry_borrow" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="0" xd:worst-case="0" xd:average-case="0"/>
+  <xd:resourceEstimates xd:LUT="64" xd:FF="0" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

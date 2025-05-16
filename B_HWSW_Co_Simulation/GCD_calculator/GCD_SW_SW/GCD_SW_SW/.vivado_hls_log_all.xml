@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <csimLog>
+        <logs message="@E [SIM-1] 'csim_design' failed: compilation error(s).&#xD;&#xA;4&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/HOC_TAP/System_C/Final_report/B_HWSW_Co_Simulation/GCD_calculator/GCD_SW_SW/GCD_SW_SW/solution1/csim.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/HOC_TAP/System_C/Final_report/B_HWSW_Co_Simulation/GCD_calculator/GCD_SW_SW/GCD_SW_SW/solution1/csim.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="GCD_SW_SW" solutionName="solution1" date="2025-05-12T21:11:23.313+0700"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="mux_4to1.cpp" path="C:\HOC_TAP\System_C\mux_4to1\mux_4to1.cpp"/>
+    <originFiles name="mux4bit_4to1.cpp" path="C:\HOC_TAP\System_C\Final_report\A_Design_problem\3.4_bit_multiplexor_4to1\mux4bit_4to1.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="main.cpp" path="C:\HOC_TAP\System_C\Final_report\A_Design_problem\3.4_bit_multiplexor_4to1\main.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
